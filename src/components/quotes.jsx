@@ -6,14 +6,14 @@ import Name from './name';
 class Quotes extends Component {   
     render() { 
         return this.props.data.map(item => {
-            return  (
-                <>
-               <div key={item.quote} className="quote">
-               <Name item={item}/>
-               <Image item={item}/>
-               <Quote item={item}/>
-               </div>
-               </>
+            return  (            
+                <div key={item.quote} className="quote">
+                <Name item={item}/>
+                <Image item={item}/>
+                <Quote item={item}/>
+                </div>
+                
+               
             );                    
         });
     }

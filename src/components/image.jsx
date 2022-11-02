@@ -4,9 +4,9 @@ class Image extends Component {
     
     render() { 
         return (
-            <>
+            
            <img src={this.props.item.image}></img> 
-           </>
+           
         );
     }
 }
